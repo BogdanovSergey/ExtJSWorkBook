@@ -274,6 +274,9 @@
      */
     "production": {
         "output": {
+            "js": {
+                "version": "ES8"
+            },
             "appCache": {
                 "enable": false,
                 "path": "cache.appcache"
@@ -294,6 +297,11 @@
      * Settings specific to testing builds.
      */
     "testing": {
+        "output": {
+            "js": {
+                "version": "ES6"
+            }
+        }
     },
 
     /**
@@ -387,6 +395,10 @@
 
     "output": {
         "base": "${workspace.build.dir}/${build.environment}/${app.name}",
+        "js": {
+            "path": "app.js",
+            "version": "ES6"
+        },
         "appCache": {
             "enable": false
         }

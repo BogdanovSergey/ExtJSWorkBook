@@ -1,0 +1,1937 @@
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-btn-ggg-large-tl,
+.x-btn-ggg-large-bl,
+.x-btn-ggg-large-tr,
+.x-btn-ggg-large-br,
+.x-btn-ggg-large-tc,
+.x-btn-ggg-large-bc,
+.x-btn-ggg-large-ml,
+.x-btn-ggg-large-mr {
+    background-image: url(images/btn/btn-ggg-large-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-btn-ggg-large-ml,
+.x-btn-ggg-large-mr {
+    background-image: url(images/btn/btn-ggg-large-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-btn-ggg-large-mc {
+    padding: 9px 9px 9px 9px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
+.x-btn-ggg-large {
+    border-color: #1062ce;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
+.x-btn-button-ggg-large {
+    min-height: 24px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2475 */
+.x-ie9m .x-btn-button-ggg-large {
+    min-height: auto;
+    height: 24px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
+.x-btn-inner-ggg-large {
+    font: 400 16px/20px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: #f0f0f0;
+    padding: 0 10px;
+    max-width: 100%;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2502 */
+.x-ie9 .x-btn-icon-right > .x-btn-inner-ggg-large,
+.x-ie9 .x-btn-icon-left > .x-btn-inner-ggg-large {
+    max-width: calc(100% - 24px);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2510 */
+.x-safari8m .x-btn-icon-right > .x-btn-inner-ggg-large,
+.x-safari8m .x-btn-icon-left > .x-btn-inner-ggg-large {
+    max-width: calc(100% - 23px);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2516 */
+.x-ie10p .x-btn-inner-ggg-large {
+    max-width: none;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2521 */
+.x-btn-icon-el-ggg-large {
+    font-size: 24px;
+    height: 24px;
+    color: #f0f0f0;
+    line-height: 24px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2527 */
+.x-btn-icon-left > .x-btn-icon-el-ggg-large,
+.x-btn-icon-right > .x-btn-icon-el-ggg-large {
+    width: 24px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2532 */
+.x-btn-icon-top > .x-btn-icon-el-ggg-large,
+.x-btn-icon-bottom > .x-btn-icon-el-ggg-large {
+    min-width: 24px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2554 */
+.x-ie8 .x-btn-icon-el-ggg-large.x-btn-glyph {
+    color: #f0f0f0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2561 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-ggg-large {
+    margin-right: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2565 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-ggg-large.x-rtl {
+    margin-right: 0;
+    margin-left: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2572 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-ggg-large {
+    margin-left: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2576 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-ggg-large.x-rtl {
+    margin-left: 0;
+    margin-right: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2583 */
+.x-btn-text.x-btn-icon-top > .x-btn-icon-el-ggg-large {
+    margin-bottom: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2587 */
+.x-btn-text.x-btn-icon-bottom > .x-btn-icon-el-ggg-large {
+    margin-top: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2593 */
+.x-btn-arrow-right > .x-btn-icon.x-btn-no-text.x-btn-button-ggg-large {
+    padding-right: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2596 */
+.x-btn-arrow-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-ggg-large {
+    margin-right: 10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2603 */
+.x-btn-arrow-bottom > .x-btn-button-ggg-large,
+.x-btn-split-bottom > .x-btn-button-ggg-large {
+    padding-bottom: 9px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2609 */
+.x-btn-wrap-ggg-large.x-btn-arrow-right:after {
+    width: 22px;
+    content: '\f0d7';
+    font: 24px/1 'Font Awesome 5 Free';
+    color: #f0f0f0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2636 */
+.x-btn-wrap-ggg-large.x-btn-arrow-bottom:after {
+    height: 16px;
+    content: '\f0d7';
+    font: 24px/16px 'Font Awesome 5 Free';
+    color: #f0f0f0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2663 */
+.x-btn-wrap-ggg-large.x-btn-split-right > .x-btn-button {
+    padding-right: 9px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2666 */
+.x-btn-wrap-ggg-large.x-btn-split-right > .x-btn-button.x-rtl {
+    padding-right: 0;
+    padding-left: 9px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2671 */
+.x-btn-wrap-ggg-large.x-btn-split-right > .x-btn-button:after {
+    border-right: 1px solid #f0f0f0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2676 */
+.x-btn-wrap-ggg-large.x-btn-split-right:after {
+    width: 32px;
+    content: '\f0d7';
+    font: 24px/1 'Font Awesome 5 Free';
+    color: #f0f0f0;
+    padding-left: 9px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2692 */
+.x-btn-wrap-ggg-large.x-rtl.x-btn-split-right:after {
+    padding-left: 0;
+    padding-right: 9px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2702 */
+.x-btn-wrap-ggg-large.x-btn-split-bottom {
+    margin-bottom: -9px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2704 */
+.x-btn-wrap-ggg-large.x-btn-split-bottom > .x-btn-button:after {
+    border-bottom: 1px solid #f0f0f0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2715 */
+.x-btn-wrap-ggg-large.x-btn-split-bottom:after {
+    height: 28px;
+    content: '\f0d7';
+    font: 24px/28px 'Font Awesome 5 Free';
+    color: #f0f0f0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2748 */
+.x-btn-split-right > .x-btn-icon.x-btn-no-text.x-btn-button-ggg-large {
+    padding-right: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2751 */
+.x-btn-split-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-ggg-large {
+    margin-right: 10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
+.x-keyboard-mode .x-btn-focus.x-btn-ggg-large {
+    background-image: none;
+    background-color: green;
+    -webkit-box-shadow: #c3d5ec 0 1px 0px 0 inset, #c3d5ec 0 -1px 0px 0 inset, #c3d5ec -1px 0 0px 0 inset, #c3d5ec 1px 0 0px 0 inset;
+    -moz-box-shadow: #c3d5ec 0 1px 0px 0 inset, #c3d5ec 0 -1px 0px 0 inset, #c3d5ec -1px 0 0px 0 inset, #c3d5ec 1px 0 0px 0 inset;
+    box-shadow: #c3d5ec 0 1px 0px 0 inset, #c3d5ec 0 -1px 0px 0 inset, #c3d5ec -1px 0 0px 0 inset, #c3d5ec 1px 0 0px 0 inset;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
+.x-btn-ggg-large .x-btn-arrow-el {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 41px;
+    pointer-events: none;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2802 */
+.x-btn-ggg-large .x-btn-arrow-el.x-rtl {
+    right: inherit;
+    left: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
+.x-keyboard-mode .x-btn-ggg-large.x-arrow-focus .x-btn-arrow-el {
+    border: 1px solid #c3d5ec;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
+.x-btn-over.x-btn-ggg-large {
+    border-color: #0f5abe;
+    background-image: none;
+    background-color: #007600;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
+.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-ggg-large {
+    -webkit-box-shadow: #c3d3e9 0 1px 0px 0 inset, #c3d3e9 0 -1px 0px 0 inset, #c3d3e9 -1px 0 0px 0 inset, #c3d3e9 1px 0 0px 0 inset;
+    -moz-box-shadow: #c3d3e9 0 1px 0px 0 inset, #c3d3e9 0 -1px 0px 0 inset, #c3d3e9 -1px 0 0px 0 inset, #c3d3e9 1px 0 0px 0 inset;
+    box-shadow: #c3d3e9 0 1px 0px 0 inset, #c3d3e9 0 -1px 0px 0 inset, #c3d3e9 -1px 0 0px 0 inset, #c3d3e9 1px 0 0px 0 inset;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
+.x-btn.x-btn-menu-active.x-btn-ggg-large,
+.x-btn.x-btn-pressed.x-btn-ggg-large {
+    border-color: #0c499b;
+    background-image: none;
+    background-color: #006000;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-ggg-large,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-ggg-large {
+    -webkit-box-shadow: #c3d0e1 0 1px 0px 0 inset, #c3d0e1 0 -1px 0px 0 inset, #c3d0e1 -1px 0 0px 0 inset, #c3d0e1 1px 0 0px 0 inset;
+    -moz-box-shadow: #c3d0e1 0 1px 0px 0 inset, #c3d0e1 0 -1px 0px 0 inset, #c3d0e1 -1px 0 0px 0 inset, #c3d0e1 1px 0 0px 0 inset;
+    box-shadow: #c3d0e1 0 1px 0px 0 inset, #c3d0e1 0 -1px 0px 0 inset, #c3d0e1 -1px 0 0px 0 inset, #c3d0e1 1px 0 0px 0 inset;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
+.x-btn.x-btn-disabled.x-btn-ggg-large {
+    background-image: none;
+    background-color: green;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-tl,
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-bl,
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-tr,
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-br,
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-tc,
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-bc {
+    background-image: url(images/btn/btn-ggg-large-focus-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2974 */
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-ml,
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-mr {
+    background-image: url(images/btn/btn-ggg-large-focus-sides.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
+.x-keyboard-mode .x-btn-focus .x-btn-ggg-large-mc {
+    background-color: green;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
+.x-btn-over .x-btn-ggg-large-tl,
+.x-btn-over .x-btn-ggg-large-bl,
+.x-btn-over .x-btn-ggg-large-tr,
+.x-btn-over .x-btn-ggg-large-br,
+.x-btn-over .x-btn-ggg-large-tc,
+.x-btn-over .x-btn-ggg-large-bc {
+    background-image: url(images/btn/btn-ggg-large-over-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:2999 */
+.x-btn-over .x-btn-ggg-large-ml,
+.x-btn-over .x-btn-ggg-large-mr {
+    background-image: url(images/btn/btn-ggg-large-over-sides.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3003 */
+.x-btn-over .x-btn-ggg-large-mc {
+    background-color: #007600;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3016 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-br,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-bc {
+    background-image: url(images/btn/btn-ggg-large-focus-over-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3024 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-mr {
+    background-image: url(images/btn/btn-ggg-large-focus-over-sides.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3028 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-ggg-large-mc {
+    background-color: #007600;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3043 */
+.x-btn.x-btn-menu-active .x-btn-ggg-large-tl,
+.x-btn.x-btn-menu-active .x-btn-ggg-large-bl,
+.x-btn.x-btn-menu-active .x-btn-ggg-large-tr,
+.x-btn.x-btn-menu-active .x-btn-ggg-large-br,
+.x-btn.x-btn-menu-active .x-btn-ggg-large-tc,
+.x-btn.x-btn-menu-active .x-btn-ggg-large-bc,
+.x-btn.x-btn-pressed .x-btn-ggg-large-tl,
+.x-btn.x-btn-pressed .x-btn-ggg-large-bl,
+.x-btn.x-btn-pressed .x-btn-ggg-large-tr,
+.x-btn.x-btn-pressed .x-btn-ggg-large-br,
+.x-btn.x-btn-pressed .x-btn-ggg-large-tc,
+.x-btn.x-btn-pressed .x-btn-ggg-large-bc {
+    background-image: url(images/btn/btn-ggg-large-pressed-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3051 */
+.x-btn.x-btn-menu-active .x-btn-ggg-large-ml,
+.x-btn.x-btn-menu-active .x-btn-ggg-large-mr,
+.x-btn.x-btn-pressed .x-btn-ggg-large-ml,
+.x-btn.x-btn-pressed .x-btn-ggg-large-mr {
+    background-image: url(images/btn/btn-ggg-large-pressed-sides.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3055 */
+.x-btn.x-btn-menu-active .x-btn-ggg-large-mc,
+.x-btn.x-btn-pressed .x-btn-ggg-large-mc {
+    background-color: #006000;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3069 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-br,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-bc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-br,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-bc {
+    background-image: url(images/btn/btn-ggg-large-focus-pressed-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3077 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-mr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-mr {
+    background-image: url(images/btn/btn-ggg-large-focus-pressed-sides.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3081 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-ggg-large-mc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-ggg-large-mc {
+    background-color: #006000;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3095 */
+.x-btn.x-btn-disabled .x-btn-ggg-large-tl,
+.x-btn.x-btn-disabled .x-btn-ggg-large-bl,
+.x-btn.x-btn-disabled .x-btn-ggg-large-tr,
+.x-btn.x-btn-disabled .x-btn-ggg-large-br,
+.x-btn.x-btn-disabled .x-btn-ggg-large-tc,
+.x-btn.x-btn-disabled .x-btn-ggg-large-bc {
+    background-image: url(images/btn/btn-ggg-large-disabled-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3103 */
+.x-btn.x-btn-disabled .x-btn-ggg-large-ml,
+.x-btn.x-btn-disabled .x-btn-ggg-large-mr {
+    background-image: url(images/btn/btn-ggg-large-disabled-sides.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
+.x-btn.x-btn-disabled .x-btn-ggg-large-mc {
+    background-color: green;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
+.x-nbr .x-btn-ggg-large {
+    background-image: none;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3123 */
+.x-btn-disabled.x-btn-ggg-large {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3142 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-ggg-large.x-segmented-button-first {
+    border-right-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3144 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-ggg-large.x-segmented-button-first .x-btn-ggg-large-mc {
+    padding-right: 9px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3148 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-ggg-large.x-segmented-button-middle {
+    border-right-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3150 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-ggg-large.x-segmented-button-middle .x-btn-ggg-large-mc {
+    padding-right: 9px !important;
+    padding-left: 9px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3156 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-ggg-large.x-segmented-button-last .x-btn-ggg-large-mc {
+    padding-left: 9px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3163 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-ggg-large.x-segmented-button-first {
+    border-bottom-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3165 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-ggg-large.x-segmented-button-first .x-btn-ggg-large-mc {
+    padding-bottom: 9px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3169 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-ggg-large.x-segmented-button-middle {
+    border-bottom-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3171 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-ggg-large.x-segmented-button-middle .x-btn-ggg-large-mc {
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3177 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-ggg-large.x-segmented-button-last .x-btn-ggg-large-mc {
+    padding-top: 9px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3183 */
+.x-nbr .x-segmented-button-item.x-btn-ggg-large:after {
+    content: ' ';
+    border-style: solid;
+    border-width: 0;
+    position: absolute;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3201 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-ggg-large:after {
+    top: 1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3207 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-ggg-large.x-segmented-button-first:after {
+    left: 1px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3210 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-ggg-large.x-segmented-button-last:after {
+    right: 1px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3216 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-ggg-large:after {
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    left: 1px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3222 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-ggg-large.x-segmented-button-first:after {
+    top: 1px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3225 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-ggg-large.x-segmented-button-last:after {
+    bottom: 1px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-ggg-large:after {
+    border-width: 1px;
+    border-color: #c3d5ec;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-ggg-large:after {
+    border-width: 1px;
+    border-color: #c3d3e9;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-ggg-large:after,
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-ggg-large:after {
+    border-width: 1px;
+    border-color: #c3d0e1;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
+.x-button-ggg-large-cell > .x-grid-cell-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
+.x-button-ggg-large-cell > .x-grid-cell-inner >.x-btn-ggg-large {
+    vertical-align: top;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:799 */
+.x-panel-highlight-framed {
+    border-color: red;
+    padding: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:802 */
+.x-panel-highlight-framed.x-masked {
+    border-color: #ff8080;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:810 */
+.x-panel-header-highlight-framed {
+    font-size: 16px;
+    border: 1px solid red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:836 */
+.x-panel-header-highlight-framed .x-tool-tool-el {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:842 */
+.x-panel-header-highlight-framed-horizontal {
+    padding: 11px 15px 12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:846 */
+.x-panel-header-highlight-framed-horizontal .x-panel-header-highlight-framed-tab-bar {
+    margin-top: -11px;
+    margin-bottom: -12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:854 */
+.x-panel-header-highlight-framed-horizontal.x-header-noborder {
+    padding: 12px 16px 12px 16px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:858 */
+.x-panel-header-highlight-framed-horizontal.x-header-noborder .x-panel-header-highlight-framed-tab-bar {
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:866 */
+.x-panel-header-highlight-framed-vertical {
+    padding: 15px 11px 15px 12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:870 */
+.x-panel-header-highlight-framed-vertical .x-panel-header-highlight-framed-tab-bar {
+    margin-right: -11px;
+    margin-left: -12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:878 */
+.x-panel-header-highlight-framed-vertical.x-header-noborder {
+    padding: 16px 12px 16px 12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:882 */
+.x-panel-header-highlight-framed-vertical.x-header-noborder .x-panel-header-highlight-framed-tab-bar {
+    margin-right: -12px;
+    margin-left: -12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:891 */
+.x-rtl.x-panel-header-highlight-framed-vertical {
+    padding: 15px 12px 15px 11px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:895 */
+.x-rtl.x-panel-header-highlight-framed-vertical .x-panel-header-highlight-framed-tab-bar {
+    margin-left: -11px;
+    margin-right: -12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:903 */
+.x-rtl.x-panel-header-highlight-framed-vertical.x-header-noborder {
+    padding: 16px 12px 16px 12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:907 */
+.x-rtl.x-panel-header-highlight-framed-vertical.x-header-noborder .x-panel-header-highlight-framed-tab-bar {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:916 */
+.x-panel-header-title-highlight-framed {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    line-height: 20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:929 */
+.x-keyboard-mode .x-panel-header-title-highlight-framed.x-title-focus {
+    outline: 1px solid #fff;
+    outline-offset: 2px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:63 */
+.x-ie .x-keyboard-mode .x-panel-header-title-highlight-framed.x-title-focus,
+.x-ie10p .x-keyboard-mode .x-panel-header-title-highlight-framed.x-title-focus,
+.x-edge .x-keyboard-mode .x-panel-header-title-highlight-framed.x-title-focus {
+    outline: none;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */
+.x-ie .x-keyboard-mode .x-panel-header-title-highlight-framed.x-title-focus:after,
+.x-ie10p .x-keyboard-mode .x-panel-header-title-highlight-framed.x-title-focus:after,
+.x-edge .x-keyboard-mode .x-panel-header-title-highlight-framed.x-title-focus:after {
+    position: absolute;
+    content: ' ';
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+    border: 1px solid #fff;
+    pointer-events: none;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:950 */
+.x-panel-header-title-highlight-framed > .x-title-text-highlight-framed {
+    text-transform: none;
+    padding: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:997 */
+.x-panel-header-title-highlight-framed > .x-title-icon-wrap-highlight-framed.x-title-icon-top {
+    height: 24px;
+    padding-bottom: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1002 */
+.x-panel-header-title-highlight-framed > .x-title-icon-wrap-highlight-framed.x-title-icon-right {
+    width: 24px;
+    padding-left: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1007 */
+.x-panel-header-title-highlight-framed > .x-title-icon-wrap-highlight-framed.x-title-icon-right.x-rtl {
+    padding-left: 0;
+    padding-right: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1014 */
+.x-panel-header-title-highlight-framed > .x-title-icon-wrap-highlight-framed.x-title-icon-bottom {
+    height: 24px;
+    padding-top: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1019 */
+.x-panel-header-title-highlight-framed > .x-title-icon-wrap-highlight-framed.x-title-icon-left {
+    width: 24px;
+    padding-right: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1024 */
+.x-panel-header-title-highlight-framed > .x-title-icon-wrap-highlight-framed.x-title-icon-left.x-rtl {
+    padding-right: 0;
+    padding-left: 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1031 */
+.x-panel-header-title-highlight-framed > .x-title-icon-wrap-highlight-framed > .x-title-icon-highlight-framed {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    color: #f0f0f0;
+    background-position: center center;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1051 */
+.x-ie8 .x-panel-header-title-highlight-framed > .x-title-icon-wrap-highlight-framed > .x-title-icon-highlight-framed.x-title-glyph {
+    color: #f0f0f0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */
+.x-panel-body-highlight-framed {
+    background: #fff;
+    border-color: red;
+    color: #404040;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    border-width: 1px;
+    border-style: solid;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-highlight-framed {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 0 0 0;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #fff;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-highlight-framed-mc {
+    background-color: #fff;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-highlight-framed {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-highlight-framed-frameInfo {
+    font-family: dh-5-5-5-5-5-5-5-5-0px-0px-0px-0px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-highlight-framed-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-highlight-framed-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-highlight-framed-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-highlight-framed-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-highlight-framed-ml {
+    background-position: 0 top;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-highlight-framed-mr {
+    background-position: right top;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-highlight-framed-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-highlight-framed-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-highlight-framed-tr,
+.x-panel-highlight-framed-br,
+.x-panel-highlight-framed-mr {
+    padding-right: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-highlight-framed-tl,
+.x-panel-highlight-framed-bl,
+.x-panel-highlight-framed-ml {
+    padding-left: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-highlight-framed-tc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-highlight-framed-bc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-highlight-framed-tl,
+.x-panel-highlight-framed-bl,
+.x-panel-highlight-framed-tr,
+.x-panel-highlight-framed-br,
+.x-panel-highlight-framed-tc,
+.x-panel-highlight-framed-bc,
+.x-panel-highlight-framed-ml,
+.x-panel-highlight-framed-mr {
+    background-image: url(images/panel/panel-highlight-framed-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-highlight-framed-ml,
+.x-panel-highlight-framed-mr {
+    background-image: url(images/panel/panel-highlight-framed-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-highlight-framed-mc {
+    padding: 0px 0px 0px 0px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-highlight-framed-top {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 11px 15px 12px 15px;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-highlight-framed-top-mc {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-highlight-framed-top {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-highlight-framed-top-frameInfo {
+    font-family: dh-5-5-0-5-1-1-0-1-11-15-12-15;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-highlight-framed-top-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-highlight-framed-top-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-highlight-framed-top-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-highlight-framed-top-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-highlight-framed-top-ml {
+    background-position: 0 top;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-highlight-framed-top-mr {
+    background-position: right top;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-highlight-framed-top-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-highlight-framed-top-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-highlight-framed-top-tr,
+.x-panel-header-highlight-framed-top-br,
+.x-panel-header-highlight-framed-top-mr {
+    padding-right: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-highlight-framed-top-tl,
+.x-panel-header-highlight-framed-top-bl,
+.x-panel-header-highlight-framed-top-ml {
+    padding-left: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-highlight-framed-top-tc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-highlight-framed-top-bc {
+    height: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-highlight-framed-top-tl,
+.x-panel-header-highlight-framed-top-bl,
+.x-panel-header-highlight-framed-top-tr,
+.x-panel-header-highlight-framed-top-br,
+.x-panel-header-highlight-framed-top-tc,
+.x-panel-header-highlight-framed-top-bc,
+.x-panel-header-highlight-framed-top-ml,
+.x-panel-header-highlight-framed-top-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-top-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-highlight-framed-top-ml,
+.x-panel-header-highlight-framed-top-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-top-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-highlight-framed-top-mc {
+    padding: 7px 11px 12px 11px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-highlight-framed-right {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 15px 11px 15px 12px;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
+.x-rtl.x-panel-header-highlight-framed-right {
+    background-image: none;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-highlight-framed-right-mc {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-highlight-framed-right {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-highlight-framed-right-frameInfo {
+    font-family: dh-5-5-5-0-1-1-1-0-15-11-15-12;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-highlight-framed-right-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-highlight-framed-right-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-highlight-framed-right-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-highlight-framed-right-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-highlight-framed-right-ml {
+    background-position: right 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-highlight-framed-right-mr {
+    background-position: right 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-highlight-framed-right-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-highlight-framed-right-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-highlight-framed-right-tr,
+.x-panel-header-highlight-framed-right-br,
+.x-panel-header-highlight-framed-right-mr {
+    padding-right: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-highlight-framed-right-tl,
+.x-panel-header-highlight-framed-right-bl,
+.x-panel-header-highlight-framed-right-ml {
+    padding-left: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-highlight-framed-right-tc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-highlight-framed-right-bc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-highlight-framed-right-tl,
+.x-panel-header-highlight-framed-right-bl,
+.x-panel-header-highlight-framed-right-tr,
+.x-panel-header-highlight-framed-right-br,
+.x-panel-header-highlight-framed-right-tc,
+.x-panel-header-highlight-framed-right-bc,
+.x-panel-header-highlight-framed-right-ml,
+.x-panel-header-highlight-framed-right-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-right-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-panel-header-highlight-framed-right-tl,
+.x-rtl.x-panel-header-highlight-framed-right-ml,
+.x-rtl.x-panel-header-highlight-framed-right-bl,
+.x-rtl.x-panel-header-highlight-framed-right-tr,
+.x-rtl.x-panel-header-highlight-framed-right-mr,
+.x-rtl.x-panel-header-highlight-framed-right-br {
+    background-image: url(images/panel-header/panel-header-highlight-framed-right-corners-rtl.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-highlight-framed-right-ml,
+.x-panel-header-highlight-framed-right-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-right-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-highlight-framed-right-mc {
+    padding: 11px 7px 11px 12px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-highlight-framed-bottom {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 11px 15px 12px 15px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-highlight-framed-bottom-mc {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-highlight-framed-bottom {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-highlight-framed-bottom-frameInfo {
+    font-family: dh-0-5-5-5-0-1-1-1-11-15-12-15;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-highlight-framed-bottom-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-highlight-framed-bottom-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-highlight-framed-bottom-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-highlight-framed-bottom-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-highlight-framed-bottom-ml {
+    background-position: 0 bottom;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-highlight-framed-bottom-mr {
+    background-position: right bottom;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-highlight-framed-bottom-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-highlight-framed-bottom-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-highlight-framed-bottom-tr,
+.x-panel-header-highlight-framed-bottom-br,
+.x-panel-header-highlight-framed-bottom-mr {
+    padding-right: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-highlight-framed-bottom-tl,
+.x-panel-header-highlight-framed-bottom-bl,
+.x-panel-header-highlight-framed-bottom-ml {
+    padding-left: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-highlight-framed-bottom-tc {
+    height: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-highlight-framed-bottom-bc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-highlight-framed-bottom-tl,
+.x-panel-header-highlight-framed-bottom-bl,
+.x-panel-header-highlight-framed-bottom-tr,
+.x-panel-header-highlight-framed-bottom-br,
+.x-panel-header-highlight-framed-bottom-tc,
+.x-panel-header-highlight-framed-bottom-bc,
+.x-panel-header-highlight-framed-bottom-ml,
+.x-panel-header-highlight-framed-bottom-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-bottom-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-highlight-framed-bottom-ml,
+.x-panel-header-highlight-framed-bottom-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-bottom-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-highlight-framed-bottom-mc {
+    padding: 11px 11px 8px 11px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-highlight-framed-left {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 15px 11px 15px 12px;
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
+.x-rtl.x-panel-header-highlight-framed-left {
+    background-image: none;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-highlight-framed-left-mc {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-highlight-framed-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-highlight-framed-left-frameInfo {
+    font-family: dh-5-0-5-5-1-0-1-1-15-11-15-12;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-highlight-framed-left-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-highlight-framed-left-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-highlight-framed-left-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-highlight-framed-left-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-highlight-framed-left-ml {
+    background-position: left 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-highlight-framed-left-mr {
+    background-position: left 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-highlight-framed-left-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-highlight-framed-left-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-highlight-framed-left-tr,
+.x-panel-header-highlight-framed-left-br,
+.x-panel-header-highlight-framed-left-mr {
+    padding-right: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-highlight-framed-left-tl,
+.x-panel-header-highlight-framed-left-bl,
+.x-panel-header-highlight-framed-left-ml {
+    padding-left: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-highlight-framed-left-tc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-highlight-framed-left-bc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-highlight-framed-left-tl,
+.x-panel-header-highlight-framed-left-bl,
+.x-panel-header-highlight-framed-left-tr,
+.x-panel-header-highlight-framed-left-br,
+.x-panel-header-highlight-framed-left-tc,
+.x-panel-header-highlight-framed-left-bc,
+.x-panel-header-highlight-framed-left-ml,
+.x-panel-header-highlight-framed-left-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-left-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-panel-header-highlight-framed-left-tl,
+.x-rtl.x-panel-header-highlight-framed-left-ml,
+.x-rtl.x-panel-header-highlight-framed-left-bl,
+.x-rtl.x-panel-header-highlight-framed-left-tr,
+.x-rtl.x-panel-header-highlight-framed-left-mr,
+.x-rtl.x-panel-header-highlight-framed-left-br {
+    background-image: url(images/panel-header/panel-header-highlight-framed-left-corners-rtl.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-highlight-framed-left-ml,
+.x-panel-header-highlight-framed-left-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-left-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-highlight-framed-left-mc {
+    padding: 11px 11px 11px 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-highlight-framed-collapsed-top {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 11px 15px 12px 15px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-highlight-framed-collapsed-top-mc {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-highlight-framed-collapsed-top {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-highlight-framed-collapsed-top-frameInfo {
+    font-family: dh-5-5-5-5-1-1-1-1-11-15-12-15;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-highlight-framed-collapsed-top-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-highlight-framed-collapsed-top-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-highlight-framed-collapsed-top-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-highlight-framed-collapsed-top-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-highlight-framed-collapsed-top-ml {
+    background-position: 0 top;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-highlight-framed-collapsed-top-mr {
+    background-position: right top;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-highlight-framed-collapsed-top-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-highlight-framed-collapsed-top-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-highlight-framed-collapsed-top-tr,
+.x-panel-header-highlight-framed-collapsed-top-br,
+.x-panel-header-highlight-framed-collapsed-top-mr {
+    padding-right: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-highlight-framed-collapsed-top-tl,
+.x-panel-header-highlight-framed-collapsed-top-bl,
+.x-panel-header-highlight-framed-collapsed-top-ml {
+    padding-left: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-highlight-framed-collapsed-top-tc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-highlight-framed-collapsed-top-bc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-highlight-framed-collapsed-top-tl,
+.x-panel-header-highlight-framed-collapsed-top-bl,
+.x-panel-header-highlight-framed-collapsed-top-tr,
+.x-panel-header-highlight-framed-collapsed-top-br,
+.x-panel-header-highlight-framed-collapsed-top-tc,
+.x-panel-header-highlight-framed-collapsed-top-bc,
+.x-panel-header-highlight-framed-collapsed-top-ml,
+.x-panel-header-highlight-framed-collapsed-top-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-top-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-highlight-framed-collapsed-top-ml,
+.x-panel-header-highlight-framed-collapsed-top-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-top-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-highlight-framed-collapsed-top-mc {
+    padding: 7px 11px 8px 11px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-highlight-framed-collapsed-right {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 15px 11px 15px 12px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
+.x-rtl.x-panel-header-highlight-framed-collapsed-right {
+    background-image: none;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-highlight-framed-collapsed-right-mc {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-highlight-framed-collapsed-right {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-highlight-framed-collapsed-right-frameInfo {
+    font-family: dh-5-5-5-5-1-1-1-1-15-11-15-12;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-highlight-framed-collapsed-right-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-highlight-framed-collapsed-right-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-highlight-framed-collapsed-right-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-highlight-framed-collapsed-right-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-highlight-framed-collapsed-right-ml {
+    background-position: right 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-highlight-framed-collapsed-right-mr {
+    background-position: right 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-highlight-framed-collapsed-right-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-highlight-framed-collapsed-right-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-highlight-framed-collapsed-right-tr,
+.x-panel-header-highlight-framed-collapsed-right-br,
+.x-panel-header-highlight-framed-collapsed-right-mr {
+    padding-right: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-highlight-framed-collapsed-right-tl,
+.x-panel-header-highlight-framed-collapsed-right-bl,
+.x-panel-header-highlight-framed-collapsed-right-ml {
+    padding-left: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-highlight-framed-collapsed-right-tc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-highlight-framed-collapsed-right-bc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-highlight-framed-collapsed-right-tl,
+.x-panel-header-highlight-framed-collapsed-right-bl,
+.x-panel-header-highlight-framed-collapsed-right-tr,
+.x-panel-header-highlight-framed-collapsed-right-br,
+.x-panel-header-highlight-framed-collapsed-right-tc,
+.x-panel-header-highlight-framed-collapsed-right-bc,
+.x-panel-header-highlight-framed-collapsed-right-ml,
+.x-panel-header-highlight-framed-collapsed-right-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-right-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-panel-header-highlight-framed-collapsed-right-tl,
+.x-rtl.x-panel-header-highlight-framed-collapsed-right-ml,
+.x-rtl.x-panel-header-highlight-framed-collapsed-right-bl,
+.x-rtl.x-panel-header-highlight-framed-collapsed-right-tr,
+.x-rtl.x-panel-header-highlight-framed-collapsed-right-mr,
+.x-rtl.x-panel-header-highlight-framed-collapsed-right-br {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-right-corners-rtl.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-highlight-framed-collapsed-right-ml,
+.x-panel-header-highlight-framed-collapsed-right-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-right-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-highlight-framed-collapsed-right-mc {
+    padding: 11px 7px 11px 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-highlight-framed-collapsed-bottom {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 11px 15px 12px 15px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-highlight-framed-collapsed-bottom-mc {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-highlight-framed-collapsed-bottom {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-highlight-framed-collapsed-bottom-frameInfo {
+    font-family: dh-5-5-5-5-1-1-1-1-11-15-12-15;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-highlight-framed-collapsed-bottom-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-highlight-framed-collapsed-bottom-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-highlight-framed-collapsed-bottom-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-highlight-framed-collapsed-bottom-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-highlight-framed-collapsed-bottom-ml {
+    background-position: 0 bottom;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-highlight-framed-collapsed-bottom-mr {
+    background-position: right bottom;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-highlight-framed-collapsed-bottom-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-highlight-framed-collapsed-bottom-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-highlight-framed-collapsed-bottom-tr,
+.x-panel-header-highlight-framed-collapsed-bottom-br,
+.x-panel-header-highlight-framed-collapsed-bottom-mr {
+    padding-right: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-highlight-framed-collapsed-bottom-tl,
+.x-panel-header-highlight-framed-collapsed-bottom-bl,
+.x-panel-header-highlight-framed-collapsed-bottom-ml {
+    padding-left: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-highlight-framed-collapsed-bottom-tc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-highlight-framed-collapsed-bottom-bc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-highlight-framed-collapsed-bottom-tl,
+.x-panel-header-highlight-framed-collapsed-bottom-bl,
+.x-panel-header-highlight-framed-collapsed-bottom-tr,
+.x-panel-header-highlight-framed-collapsed-bottom-br,
+.x-panel-header-highlight-framed-collapsed-bottom-tc,
+.x-panel-header-highlight-framed-collapsed-bottom-bc,
+.x-panel-header-highlight-framed-collapsed-bottom-ml,
+.x-panel-header-highlight-framed-collapsed-bottom-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-bottom-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-highlight-framed-collapsed-bottom-ml,
+.x-panel-header-highlight-framed-collapsed-bottom-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-bottom-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-highlight-framed-collapsed-bottom-mc {
+    padding: 7px 11px 8px 11px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-highlight-framed-collapsed-left {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 15px 11px 15px 12px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
+.x-rtl.x-panel-header-highlight-framed-collapsed-left {
+    background-image: none;
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-highlight-framed-collapsed-left-mc {
+    background-color: red;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-highlight-framed-collapsed-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-highlight-framed-collapsed-left-frameInfo {
+    font-family: dh-5-5-5-5-1-1-1-1-15-11-15-12;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-highlight-framed-collapsed-left-tl {
+    background-position: 0 -10px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-highlight-framed-collapsed-left-tr {
+    background-position: right -15px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-highlight-framed-collapsed-left-bl {
+    background-position: 0 -20px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-highlight-framed-collapsed-left-br {
+    background-position: right -25px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-highlight-framed-collapsed-left-ml {
+    background-position: left 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-highlight-framed-collapsed-left-mr {
+    background-position: left 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-highlight-framed-collapsed-left-tc {
+    background-position: 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-highlight-framed-collapsed-left-bc {
+    background-position: 0 -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-highlight-framed-collapsed-left-tr,
+.x-panel-header-highlight-framed-collapsed-left-br,
+.x-panel-header-highlight-framed-collapsed-left-mr {
+    padding-right: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-highlight-framed-collapsed-left-tl,
+.x-panel-header-highlight-framed-collapsed-left-bl,
+.x-panel-header-highlight-framed-collapsed-left-ml {
+    padding-left: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-highlight-framed-collapsed-left-tc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-highlight-framed-collapsed-left-bc {
+    height: 5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-highlight-framed-collapsed-left-tl,
+.x-panel-header-highlight-framed-collapsed-left-bl,
+.x-panel-header-highlight-framed-collapsed-left-tr,
+.x-panel-header-highlight-framed-collapsed-left-br,
+.x-panel-header-highlight-framed-collapsed-left-tc,
+.x-panel-header-highlight-framed-collapsed-left-bc,
+.x-panel-header-highlight-framed-collapsed-left-ml,
+.x-panel-header-highlight-framed-collapsed-left-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-left-corners.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-panel-header-highlight-framed-collapsed-left-tl,
+.x-rtl.x-panel-header-highlight-framed-collapsed-left-ml,
+.x-rtl.x-panel-header-highlight-framed-collapsed-left-bl,
+.x-rtl.x-panel-header-highlight-framed-collapsed-left-tr,
+.x-rtl.x-panel-header-highlight-framed-collapsed-left-mr,
+.x-rtl.x-panel-header-highlight-framed-collapsed-left-br {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-left-corners-rtl.gif);
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-highlight-framed-collapsed-left-ml,
+.x-panel-header-highlight-framed-collapsed-left-mr {
+    background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-left-sides.gif);
+    background-repeat: repeat-y;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-highlight-framed-collapsed-left-mc {
+    padding: 11px 7px 11px 8px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1188 */
+.x-panel .x-panel-header-highlight-framed-top {
+    border-bottom-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1192 */
+.x-panel .x-panel-header-highlight-framed-right {
+    border-left-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1196 */
+.x-panel .x-panel-header-highlight-framed-bottom {
+    border-top-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1200 */
+.x-panel .x-panel-header-highlight-framed-left {
+    border-right-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1206 */
+.x-nbr .x-panel-header-highlight-framed-collapsed-top {
+    border-bottom-width: 0 !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1210 */
+.x-nbr .x-panel-header-highlight-framed-collapsed-right {
+    border-left-width: 0 !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1214 */
+.x-nbr .x-panel-header-highlight-framed-collapsed-bottom {
+    border-top-width: 0 !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1218 */
+.x-nbr .x-panel-header-highlight-framed-collapsed-left {
+    border-right-width: 0 !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1336 */
+.x-panel-header-highlight-framed-horizontal .x-tool-after-title {
+    margin: 0 0 0 6px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1341 */
+.x-panel-header-highlight-framed-horizontal .x-rtl.x-tool-after-title {
+    margin: 0 6px 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1346 */
+.x-panel-header-highlight-framed-horizontal .x-tool-before-title {
+    margin: 0 6px 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1351 */
+.x-panel-header-highlight-framed-horizontal .x-rtl.x-tool-before-title {
+    margin: 0 0 0 6px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1358 */
+.x-panel-header-highlight-framed-vertical .x-tool-after-title {
+    margin: 6px 0 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1363 */
+.x-panel-header-highlight-framed-vertical .x-rtl.x-tool-after-title {
+    margin: 6px 0 0 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1368 */
+.x-panel-header-highlight-framed-vertical .x-tool-before-title {
+    margin: 0 0 6px 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1373 */
+.x-panel-header-highlight-framed-vertical .x-rtl.x-tool-before-title {
+    margin: 0 0 6px 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1381 */
+.x-keyboard-mode .x-panel-header-highlight-framed .x-tool-focus {
+    outline: 1px solid #fff;
+    outline-offset: 2px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:63 */
+.x-ie .x-keyboard-mode .x-panel-header-highlight-framed .x-tool-focus,
+.x-ie10p .x-keyboard-mode .x-panel-header-highlight-framed .x-tool-focus,
+.x-edge .x-keyboard-mode .x-panel-header-highlight-framed .x-tool-focus {
+    outline: none;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */
+.x-ie .x-keyboard-mode .x-panel-header-highlight-framed .x-tool-focus:after,
+.x-ie10p .x-keyboard-mode .x-panel-header-highlight-framed .x-tool-focus:after,
+.x-edge .x-keyboard-mode .x-panel-header-highlight-framed .x-tool-focus:after {
+    position: absolute;
+    content: ' ';
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+    border: 1px solid #fff;
+    pointer-events: none;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1412 */
+.x-rtl.x-panel-header-highlight-framed-collapsed-border-right {
+    border-right-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1415 */
+.x-rtl.x-panel-header-highlight-framed-collapsed-border-left {
+    border-left-width: 1px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1426 */
+.x-panel-highlight-framed-resizable {
+    overflow: visible;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1429 */
+.x-panel-highlight-framed-resizable .x-panel-handle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1438 */
+.x-panel-highlight-framed-resizable .x-panel-handle-north-br {
+    top: -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1441 */
+.x-panel-highlight-framed-resizable .x-panel-handle-south-br {
+    bottom: -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1444 */
+.x-panel-highlight-framed-resizable .x-panel-handle-east-br {
+    right: -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1447 */
+.x-panel-highlight-framed-resizable .x-panel-handle-west-br {
+    left: -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1450 */
+.x-panel-highlight-framed-resizable .x-panel-handle-northwest-br {
+    left: -5px;
+    top: -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1454 */
+.x-panel-highlight-framed-resizable .x-panel-handle-northeast-br {
+    right: -5px;
+    top: -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1458 */
+.x-panel-highlight-framed-resizable .x-panel-handle-southeast-br {
+    right: -5px;
+    bottom: -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1462 */
+.x-panel-highlight-framed-resizable .x-panel-handle-southwest-br {
+    left: -5px;
+    bottom: -5px;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
+.x-panel-highlight-framed-outer-border-l {
+    border-left-color: red !important;
+    border-left-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
+.x-panel-highlight-framed-outer-border-b {
+    border-bottom-color: red !important;
+    border-bottom-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
+.x-panel-highlight-framed-outer-border-bl {
+    border-bottom-color: red !important;
+    border-bottom-width: 5px !important;
+    border-left-color: red !important;
+    border-left-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
+.x-panel-highlight-framed-outer-border-r {
+    border-right-color: red !important;
+    border-right-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
+.x-panel-highlight-framed-outer-border-rl {
+    border-right-color: red !important;
+    border-right-width: 5px !important;
+    border-left-color: red !important;
+    border-left-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
+.x-panel-highlight-framed-outer-border-rb {
+    border-right-color: red !important;
+    border-right-width: 5px !important;
+    border-bottom-color: red !important;
+    border-bottom-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
+.x-panel-highlight-framed-outer-border-rbl {
+    border-right-color: red !important;
+    border-right-width: 5px !important;
+    border-bottom-color: red !important;
+    border-bottom-width: 5px !important;
+    border-left-color: red !important;
+    border-left-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
+.x-panel-highlight-framed-outer-border-t {
+    border-top-color: red !important;
+    border-top-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
+.x-panel-highlight-framed-outer-border-tl {
+    border-top-color: red !important;
+    border-top-width: 5px !important;
+    border-left-color: red !important;
+    border-left-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
+.x-panel-highlight-framed-outer-border-tb {
+    border-top-color: red !important;
+    border-top-width: 5px !important;
+    border-bottom-color: red !important;
+    border-bottom-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
+.x-panel-highlight-framed-outer-border-tbl {
+    border-top-color: red !important;
+    border-top-width: 5px !important;
+    border-bottom-color: red !important;
+    border-bottom-width: 5px !important;
+    border-left-color: red !important;
+    border-left-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
+.x-panel-highlight-framed-outer-border-tr {
+    border-top-color: red !important;
+    border-top-width: 5px !important;
+    border-right-color: red !important;
+    border-right-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
+.x-panel-highlight-framed-outer-border-trl {
+    border-top-color: red !important;
+    border-top-width: 5px !important;
+    border-right-color: red !important;
+    border-right-width: 5px !important;
+    border-left-color: red !important;
+    border-left-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
+.x-panel-highlight-framed-outer-border-trb {
+    border-top-color: red !important;
+    border-top-width: 5px !important;
+    border-right-color: red !important;
+    border-right-width: 5px !important;
+    border-bottom-color: red !important;
+    border-bottom-width: 5px !important;
+}
+/* D:/Projects/myWorkspace/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
+.x-panel-highlight-framed-outer-border-trbl {
+    border-color: red !important;
+    border-width: 5px !important;
+}

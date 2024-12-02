@@ -1,0 +1,91 @@
+<html lang="en">
+<body>
+<h1>Создание приложения через SenchaCmd</h1>
+<br />
+<br />
+
+----
+<h2>Создание приложения через SenchaCmd</h2>
+<h2>Пробный проект раскрывающий возможности фреймворка ExtJS </h2>
+
+<ul>
+    <li><a href="#">Вариант 1:</a></li>
+    <li><a href="#">Вариант 2 (generate)</a></li>
+    <li><a href="#">Файловая структура:</a></li>
+    <li><a href="#">Архитектура проекта</a></li>
+    <li><a href="#">Авторизация</a></li>
+    <li><a href="#">как собрать</a></li>
+</ul>
+
+<h2 class="subChapter" id="senchacmd_create">Создание приложения:</h2>
+<br />
+<br />
+Скачиваем (откуда?) SenchaCmd-7.6.0-windows-64bit.exe, устанавливаем SenchaCmd (пробовал на -6.6.0.13 или 7.6.0.87)
+
+Прописываем PATH путь к Sencha Cmd: C:/Users/%UserName%/bin/Sencha/Cmd. в переменные среды;
+
+Скачиваем файлы фреймворка ext-7.6.0.zip, разархивируем, например, сюда C:/Documents and Settings/%UserName%/sencha-sdks/ext-7.6.0;
+
+В удобном месте создаем директорию для проекта sencha_ui, заходим в неё;<br />
+<img src="data/chapter1/senchacmd/init.png">
+
+sencha app init -ext='C:/Documents and Settings/%UserName%/sencha-sdks/ext-7.6.0' -classic Demo
+
+[sencha app build –dev]<br />
+<img src="data/chapter1/senchacmd/build.png">
+
+    запускаем sencha app watch, но при открытии приложения в app.js не находит requires: 'Ext.MessageBox'
+    Уже можно использовать, но, удалив 'Ext.MessageBox' из app.js.
+    sencha generate controller Control – создать файл контроллера
+    sencha generate model --name Model --fields key:value
+    sencha generate theme my-theme   - разобрать подробнее
+
+    <br />
+
+<h2 class="subChapter" id="senchacmd_generate">Вариант 2 (generate):</h2>
+
+    вариант с generate:
+    sencha -sdk ./ext-6.6.0 generate app -classic TutorialApp ./TutorialApp
+
+    <br />
+<h2 class="subChapter" id="senchacmd_file">Файловая структура:</h2>
+    <br />
+    <h2 class="subChapter" id="senchacmd_arch">Архитектура проекта:</h2>
+    <br />
+                    <h1>Авторизация:</h1>
+    Описать как в контроллере сделать логику отражения логин-окна и главного viewport’a.
+
+
+
+<h2>how to init existing app?</h2>
+D:\Projects\sencha_trial\app>sencha app init -ext=../ext-6.6.0 --classic MyApp
+<br />
+
+<h2 class="subChapter" id="senchacmd_build">как собрать?</h2>
+
+D:\Projects\sencha_trial\app>sencha app build<br />
+D:\Projects\sencha_trial\app>sencha app build --dev
+<br />
+
+sencha -sdk ./ext-6.6.0 generate app -classic TutorialApp ./TutorialApp
+
+<br />
+https://stackoverflow.com/questions/36295406/sencha-app-upgrade-issue-must-be-run-from-app-folder
+".sencha" folder? Where is your "app.json" file and the "boostrap.js" and "bootstrap.json".
+<br />
+https://docs.sencha.com/extjs/6.6.0/guides/core_concepts/theming.html
+
+sencha -sdk /path/to/ExtSDK generate app -classic TutorialApp ./TutorialApp
+sencha config --prop sencha.sdk.path=C:\Users\sb\sencha-sdks --save
+<br />
+<br />
+From projects directory, we run "sencha app init" to create the application on disk:
+mkdir sencha_myapp
+cd sencha_myapp<br />
+> sencha app init --ext@6.6.0 --classic MyApp
+
+
+
+    <br />
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+
+<h2>Трепанация кнопки</h2>
+<br />
+<h2>Исследование возможностей простой кнопки:</h2>
+<ul>
+    <li><a href="#button_declare">Создание кнопки декларативно (внутри компонента);</a></li>
+    <li><a href="#button_step">Создание в процедурном стиле (пошагово);</a></li>
+    <li><a href="#button_events">События и ViewController;</a></li>
+    <li><a href="#button_css">Некоторые изменения дизайна кнопки по средствам CSS;</a></li>
+    <li><a href="#button_ui">Дизайн через ui;</a></li>
+</ul>
+
+<h2 class="subChapter" id="button_declare">Создание кнопки декларативно (внутри компонента):</h2>
+
+<div class="extEditorDiv">
+    <div id="codeMirror0" class="codeMirrorDiv" data-editor="ch1example1"></div>
+    <div style="display:none" class="code">
+    Ext.application({
+        name: 'Button',
+        launch: function() {
+            Ext.create('Ext.panel.Panel', {
+                header: false,
+                items: [
+                    {
+                        xtype: 'button',
+                        text: 'Кнопка'
+                    },
+                ],
+                renderTo: Ext.getBody()
+            });
+        }
+    });
+    </div>
+</div>
+
+
+<h2 class="subChapter" id="button_step">Создание в процедурном стиле (пошагово):</h2>
+<p>Кнопка с обработчиком нажатия и изменением свойства</p>
+<div class="extEditorDiv">
+    <div id="codeMirror2" class="codeMirrorDiv" data-editor="ch1example2"></div>
+    <div style="display:none" class="code">
+ Ext.application({
+        name: 'Button',
+        launch: function() {
+
+            // создаем кнопку
+            const btn =  Ext.create('Ext.button.Button', {
+                defaultText: 'I\'m a button',
+                text: 'I\'m a button',
+                count: 0,
+                handler: function(me, e) {
+                    // me = объект самой кнопки
+                    // e - объект Ext.event.Event
+                    me.count += 1
+                    me.setText(`${me.defaultText}, меня нажали ${me.count} раз`);
+                    console.log(e);
+                }
+            });
+
+            // создаем родителя
+            const panel = Ext.create('Ext.panel.Panel', {
+                header: false,
+                //items: [], массив где содержатся внутренние компоненты (не обязателен)
+                renderTo: Ext.getBody()
+            });
+
+            // добавляем кнопку
+            panel.add(btn);
+
+        }
+    });
+    </div>
+</div>
+
+
+<h2 class="subChapter" id="button_events">События и ViewController:</h2>
+<p>Кнопка с без свойства text, придумаем его до отрисовки компонента в событии beforerender.
+    Отделим весь функционал компонента во View контроллере.</p>
+<div class="extEditorDiv">
+    <div id="codeMirror3" class="codeMirrorDiv"></div>
+    <div style="display:none" class="code">Ext.application({
+    name: 'Button',
+    launch: function() {
+
+        // Это view-контроллер, обычно находится в другом месте
+        Ext.define('PhysicalPath.To.View.Directory', {
+            extend : 'Ext.app.ViewController',
+            alias: 'controller.MyViewControllerAlias',
+
+            // Назначение событий по определенным селекторам
+            // Так сильно упрощается код
+            control: {
+                 '#myBtn': {
+                    mouseover: 'onMouseOver',
+                    beforerender: 'onBeforeRender',
+                 }
+             },
+
+            // простой метод-функция, может использоваться без объявления в контроллере
+            onSimpleHandlerClick: function() {
+                Ext.Msg.alert('ViewController ', 'Простой метод-функция onSimpleHandlerClick на нажатие');
+            },
+
+            // назначенные методы-функции
+            onBeforeRender: function(me) {
+                const text = 'I\'m updated button';
+                me.defaultText = text;
+                me.setText(text);
+            },
+            onMouseOver: function(me) {
+                me.count += 1
+                me.setText(`${me.defaultText}, на меня навели ${me.count} раз`);
+            },
+        });
+
+
+        // Родительский компонент для нашей кнопки, обычно разделяется на файлы-компоненты
+        Ext.define('PhysicalPath.To.Component.Class', {
+            extend: 'Ext.Panel',
+            controller: 'MyViewControllerAlias', // привязка к view-контроллеру (на родительском компоненте)
+            items: [
+                {
+                    // Наш компонент-кнопка
+                    xtype: 'button',
+                    itemId: 'myBtn',
+                    defaultText : null,
+                    count: 0,
+                    handler: 'onSimpleHandlerClick', // тоже можно упростить, переместив в событие 'click'
+                    // listeners больше не нужны, функционал компонента отделен от представления
+                }
+            ]
+        });
+
+        // Создаем компонент
+        new PhysicalPath.To.Component.Class({
+            renderTo: Ext.getBody(),
+            width: 400,
+            height: 200
+        });
+
+    }
+});
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<h2 class="subChapter" id="button_css">Некоторые изменения дизайна кнопки по средствам CSS:</h2>
+<p>На примере элементарной кнопки назначим свойства style</p>
+
+<div class="extEditorDiv">
+    <div id="codeMirror4" class="codeMirrorDiv" data-editor="ch1example2"></div>
+    <div style="display:none" class="header">
+        <html lang="ru">
+        <head>
+            <meta charset="utf-8">
+            <script>alert('inner');</script>
+        </head>
+        </html>
+    </div>
+    <div style="display:none" class="css">
+        .btnBorderCls {
+            border-color: green;
+            border-width: 2px;
+        }
+        .btnIconCls {
+            background-image: url(data/examples/button/accept.png) !important;
+        }
+        .btnDeepCssTextCls span span[data-ref="btnInnerEl"] {
+            color: red;
+        }
+
+    </div>
+    <div style="display:none" class="code">
+      Ext.application({
+        name : 'Example',
+        launch : function() {
+
+                    Ext.create('Ext.panel.Panel', {
+                        header: false,
+                        items: [
+                            {
+                                xtype: 'button',
+                                text: 'Кнопка 2',
+                                componentCls: 'btnBorderCls', // Класс на корневой тег-элемент (зададим зеленую рамку)
+                                iconCls: 'btnIconCls', // Указываем background-image для иконки
+                            },
+                            {
+                                xtype: 'button',
+                                text: 'Кнопка 1',
+                                style: { // Альтернатива componentCls (другая нотация!)
+                                    'border-color': 'green', // Стиль из btnBorderCls
+                                    'border-width': '2px',   // Стиль из btnBorderCls
+
+                                    marginTop: '20px',
+                                    width: '95%', // Свойство применится к главному родительскому тегу (Element'у) кнопки - к тегу 'a';
+                                    color: 'red', // Это свойство не применится к тексту т.к. в конечном вложенном теге с текстом
+                                                  // color будет перезаписан свойством из темы, например из класса .x-btn-inner-default-small файла theme-classic-all_1.css
+                                },
+                            },
+                          {
+                                xtype: 'button',
+                                text: 'Кнопка 2',
+                                scale: 'large', // Встроенный параметр кнопки для быстрого
+                                                //изменения размера:  "small" / "medium" / "large"
+                                componentCls: 'btnDeepCssTextCls', // Можно сменить стиль текста брутально через
+                                                // css селектор: .btnDeepCssTextCls span span[data-ref="btnInnerEl"]
+                                style: {
+                                    marginTop: '20px'
+                                }
+                            },
+
+
+
+                        ],
+                        renderTo: Ext.getBody()
+                    });
+                }
+        });
+    </div>
+</div>
+
+
+
+
+<h2 class="subChapter" id="button_ui">Дизайн через ui:</h2>
+<p>ui ui.</p>
+<div class="extEditorDiv">
+    <div id="codeMirror5" class="codeMirrorDiv" data-editor="ch1example3"></div>
+    <div style="display:none" class="cssFilePath">/data/examples/button/myTheme/resources/myTheme-all.css</div>
+    <div style="display:none" class="code">
+Ext.application({
+    name : 'Example',
+    launch : function() {
+        Ext.create('Ext.panel.Panel', {
+            title: 'UI Buttons',
+            height: 300,
+            width: 200,
+            ui: 'highlight',
+            frame: true,
+            items:[
+                {
+                    xtype: 'button',
+                    ui: 'lighten',
+                    text: 'lighten button'
+                },{
+                    xtype: 'button',
+                    ui: 'darken',
+                    text: 'darken button'
+                }, {
+                    xtype: 'button',
+                    text: 'original button'
+                }
+            ],
+            renderTo: Ext.getBody()
+        });
+
+    }
+});
+    </div>
+</div>
+
+</body>
+</html>

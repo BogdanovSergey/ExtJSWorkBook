@@ -1,0 +1,45 @@
+.extEditorDiv {
+    /*display: block;
+    padding: 10px;*/
+    border: 0px solid blue;
+    /*position: static;*/
+    /*width: 90%;*/
+    /*height: 400px;*/
+    overflow: auto;
+    /*display: flex;*/
+
+}
+/*.tabPanel {
+    width: 300px;
+    height: 300px
+}*/
+/*.CodeMirror {
+    border: 1px solid #eee;
+    height: auto;
+}*/
+
+h2 {
+    /*margin: 10px;*/
+    padding: 10px;
+}
+p {
+    margin: 17px 0;
+    /*
+    line-height: 22px;*/
+    max-width: 1000px;
+}
+.subChapter {
+    color: #025b80;
+    /*line-height: 1.5em;*/
+    font-weight: 400;
+}
+
+a {
+    color: #025b80;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover {
+    /*color: #025b80;*/
+    text-decoration: underline;
+}
